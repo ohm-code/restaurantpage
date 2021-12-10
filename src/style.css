@@ -1,0 +1,52 @@
+body{
+    max-width:100vw;
+    display: flex;
+}
+#content{
+    display: flex; 
+    flex-direction: column; 
+    align-self: center; 
+    height: 100vh; 
+    width: 75vw; 
+   
+}
+.textbox{
+    border: blue;
+    white-space: pre;
+}
+.content{
+    flex:1; 
+    justify-content: space-evenly;
+    display:flex;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color: rgba(0, 0, 255, 0.397);
+}
+#headerMenu {
+    display:flex;
+    height: 4rem;         
+    justify-content: right; 
+}
+.headerItem{
+    flex: 0 1 30rem;
+    max-width: 10rem;  
+    height: 4rem;         
+    background-color: rgba(0, 0, 255, 0.397);
+    border-style: ridge;
+    border-top-left-radius: 25%;
+}
+#header1, #header2, #header3{
+    border: hidden; 
+    border-left:ridge; 
+    border-right: ridge; 
+}
+
+#header2, #header3{
+    border-bottom: ridge; 
+}
+#header3 {
+    border-right: hidden;  
+}
